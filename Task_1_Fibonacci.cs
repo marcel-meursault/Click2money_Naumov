@@ -17,7 +17,9 @@ namespace Task_1_Fibonacci
                 fibonacciNumbers.Add(firstNumber + secondNumber);
             }
             foreach (var item in fibonacciNumbers)
+            { 
                 Console.Write(item + " ");
+            }
         }
     }
 }
